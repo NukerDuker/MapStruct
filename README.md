@@ -5,5 +5,5 @@ We can create Emplyee instance, and it will be simply mapped to EmployeeDto obje
 
 1. We need to add @Mapper annotation to our mapper interface
 2. Specify @Mappings if there are different property names in original obj and dto
-3. Compile code
+3. Compile code (mapstruct generate mapper interface implementation in target folder)
 4. Create Department, Employee, and then use one of mapper interface methods, to map instances
